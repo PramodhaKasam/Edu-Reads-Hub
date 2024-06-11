@@ -102,17 +102,19 @@
     background-color: red;
 }
 
-.sub-feed{
+.sub-feed,
+.sub-feeds{
     width: 50%;
     margin-left: 25%;
-    margin-top: 70px;
+    margin-top: 50px;
     border: 3px solid black;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
-.input{
+.input, 
+.inputs{
     font-size: 13px;
     color: grey;
     margin-left: 10px;
@@ -121,6 +123,13 @@
 
 #feed{
     height: 100px;
+    width: 94%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#feeds{
+    height: 50px;
     width: 94%;
     margin-left: 10px;
     margin-right: 10px;

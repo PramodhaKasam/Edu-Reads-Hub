@@ -20,6 +20,10 @@ var o = document.querySelector('.college');
 
 var f = document.getElementById('feed');
 
+var a = document.getElementById('feeds');
+
+var b =document.querySelector('.batch')
+
 document.querySelector('.set').addEventListener('click' , () =>{
 
     feeds.push({
@@ -28,6 +32,8 @@ document.querySelector('.set').addEventListener('click' , () =>{
         rank : r.value,
         gender: g.value,
         college : o.value,
+        reason : a.value,
+        batch : b.value,
         feedback : f.value
       })
    
