@@ -139,6 +139,75 @@
     background-color: red;
 }
 
+.box{
+    display: flex;
+    column-gap: 0;
+    margin-top: 40px;
+}
+
+.p{
+    margin-left: 25%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    border: 1px solid black;
+    border-right :none;
+    background-color:  #D3D3D3;
+}
+
+.p-1{
+    background-color:  grey;
+    color: white;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 2px;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.p-0{
+    background-color:  grey;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.s{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    border: 1px solid black;
+    border-left :none;
+    background-color: #D3D3D3;
+
+}
+
+.s-1{
+    height: 25px;
+    background-color: white;
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 2px;
+}
+
+.s-0{
+    border: none;
+    background-color: white;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
 .end{
     background-color: rgb(39, 16, 102);
     padding-bottom: 10px;

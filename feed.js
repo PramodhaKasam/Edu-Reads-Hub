@@ -22,7 +22,9 @@ var f = document.getElementById('feed');
 
 var a = document.getElementById('feeds');
 
-var b =document.querySelector('.batch')
+var b =document.querySelector('.batch');
+
+var d = document.querySelector('.branch');
 
 document.querySelector('.set').addEventListener('click' , () =>{
 
@@ -32,6 +34,7 @@ document.querySelector('.set').addEventListener('click' , () =>{
         rank : r.value,
         gender: g.value,
         college : o.value,
+        branch : d.value,
         reason : a.value,
         batch : b.value,
         feedback : f.value
@@ -40,7 +43,7 @@ document.querySelector('.set').addEventListener('click' , () =>{
       saveToStorage();
 
       e.value = c.value = g.value = "Select";
-      r.value = o.value = f.value = ' ';
+      r.value = o.value = f.value = o.value = a.value = d.value = b.value = ' ';
 
 }) 
 
