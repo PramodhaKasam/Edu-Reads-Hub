@@ -64,7 +64,6 @@
 }
 
 .section{
-   
     border: 3px solid black;
     padding-left: 2%;
     padding-bottom:2%;
@@ -153,7 +152,6 @@
     column-gap: 3%;
     margin-top: 50px;
     padding-left: 19%;
-    
 }
 
 .image-1{
@@ -183,7 +181,6 @@
     font-size: 14px;
     width: 95%;
     margin-top: 5px;
-    
 }
 
 .header-2{
@@ -205,6 +202,7 @@
 .feed{
     height: 80px;
 }
+
 .feed::placeholder{
     position: absolute;
     top : 0;

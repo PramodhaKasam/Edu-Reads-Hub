@@ -1,11 +1,11 @@
-export let feeds = JSON.parse(sessionStorage.getItem('feeds'));
+export let feeds = JSON.parse(localStorage.getItem('feeds'));
 if(!feeds)
     {
         feeds = [ ];
     }
 
 function saveToStorage(){
-    sessionStorage.setItem('feeds', JSON.stringify(feeds));
+    localStorage.setItem('feeds', JSON.stringify(feeds));
 }
 
 var r = document.querySelector('.rank');
