@@ -14,7 +14,7 @@
            <div class="head">
                 <div class="headings">
                     <p class="x">About</p>
-                    <p class="x">Feedback</p>
+                    <p class="x" onclick="window.scrollTo(0, document.body.scrollHeight)">Feedback</p>
                     <p class="x">Contact</p>  
                 </div>
                 <p class="sign">SignOut</p> 
@@ -83,17 +83,17 @@
             <h2 class="header-2">See what you can do with EduReadsHub</h2>
             <div class="images">
                 <div class="image-1">
-                    <img  class="img-1" src="books.avif">
+                    <img  class="img-1" src="images/books.avif">
                     <p class="img-info">Get many JEE Reference books at free of cost</p>
 
                 </div>
                 <div class="image-1">
-                    <img  class="img-1" src="feed.jpeg">
+                    <img  class="img-1" src="images/feed.jpeg">
                     <p class="img-info">Get the advices from successfull alumni</p>
 
                 </div>
                 <div class="image-1">
-                    <img  class="img-1" src="college.jpg">
+                    <img  class="img-1" src="images/college.jpg">
                     <p class="img-info">Help in JOSAA Councelling</p>
 
                 </div>
@@ -103,11 +103,13 @@
             </div>
         </div>
 
-        <div class="feedback">
-            <input  class="username" type="text" placeholder="Username">
-            <input class="feed" type="text" placeholder="Feedback">
-            <button class="submit">Submit</button>
-        </div>
+        <form class="feedback">
+            <input  class="username" type="text" placeholder="Username" required>
+            <input class="feed" type="text" placeholder="Feedback" required>
+            <button class="submit" type="submit">Submit</button>
+        </form>
+            
+     
 
         <div class="end">
             <div class="class-1">

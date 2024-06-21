@@ -25,18 +25,22 @@ quit.addEventListener('click', () =>{
                                     <div class="p">
                                         <p class="p-1">Rank</p>
                                         <p class="p-1">College chosen</p>
-                                        <p class="p-0">Reason</p>
+                                        <p class="p-0">Branch</p>
                                         <p class="p-1">Batch(Inter)</p>
                                     </div>
                                     <div class="s">
                                         <p class="s-1">${feed.rank}</p>
                                         <p class="s-1">${feed.college}</p>
-                                        <p class="s-0">${feed.reason}</p>
+                                        <p class="s-0">${feed.branch}</p>
                                         <p class="s-1">${feed.batch}</p>
                                     </div>
                                    
                                   </div>
-                                  <p>Remember that the category, gender and examination are same.</p>`;
+                                  <div class="reasonable">
+                                    <p class="m">Reason:</p>
+                                    <p class="sa">${feed.reason}</p>
+                                  </div>
+                                  <p class="infor">Remember that the category, gender and examination are same.</p>`;
                             }
                     }
             }
