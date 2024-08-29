@@ -6,14 +6,16 @@
     width: 100%;
     height: 10%;
     color: black;
-    z-index: 5;
+    z-index: 1000;
 }
 
 .name
 {
-    margin-left: -3%;
-    margin-top: -1.75%;
+    margin-left: -36%;
+    margin-top: -21.75%;
     height : 190%;
+    cursor: pointer;
+    margin-right: -29px;
 }
 
 .head{
